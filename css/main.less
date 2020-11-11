@@ -53,6 +53,12 @@ body {
 	}
 }
 
+.fluid
+{
+    max-width: 100%;
+    height: auto;
+}
+
 /*------------------------------------------------------------------------*/
 
 
@@ -119,9 +125,10 @@ body {
                     font-size: 31px;
                     text-transform: uppercase;
                     background-color: @yel;
-                    font-weight: 600;
+                    font-weight: 500;
                     margin: 0;
                     margin-bottom: 7px;
+                    font-family: 'Lora', serif;
                 }
 
                 h2
@@ -239,6 +246,187 @@ body {
     .header .header_content .header_content_2 .header_content_2_content
     {
         font-size: 12px;
+    }
+}
+
+
+@media screen and(max-width: 1200px)
+{
+    .header .header_content .header_content_1
+    {
+        width: 100%;
+    }
+
+    .header .header_content .header_content_2
+    {
+        width: 100%;
+    }
+
+    .header .header_content
+    {
+        flex-wrap: wrap;
+    }
+
+    .header .header_content .header_content_1 .header_logo
+    {
+        text-align: center;
+    }
+
+
+    .header .header_content .header_content_1 h3 {
+        border-left: 6px solid #FFEB00;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 10px 0 10px 15px;
+        margin-bottom: 50px;
+        display: inherit;
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    .header .header_content .header_content_1 .header_content_titles
+    {
+        display: block;
+        margin-top: 60px;
+    }
+
+    .header
+    {
+        background: url('../../img/header_bg_media.png') no-repeat center center / cover;
+    }
+
+
+    .header .header_content .header_content_1 .header_content_titles .header_button
+    {
+        margin-top: 56px;
+    }
+
+    .header .header_content .header_content_2
+    {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .header .header_content
+    {
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+
+    .header .header_content .header_content_2 .header_content_2_social
+    {
+        padding-top: 30px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles
+    {
+        margin-left: 0;
+    }
+}
+
+@media screen and(max-width: 768px)
+{
+    .header .header_content .header_content_1 .header_content_titles h4
+    {
+        font-size: 26px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles .header_button
+    {
+        font-size: 18px;
+    }
+
+    .header .header_content .header_content_1 .header_logo img
+    {
+        max-width: 400px;
+    }
+}
+
+@media screen and(max-width: 670px)
+{
+    .header .header_content .header_content_1 .header_content_titles h1
+    {
+        font-size: 41px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles h5
+    {
+        font-size: 14px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles h4
+    {
+        font-size: 22px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles h2
+    {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and(max-width: 576px)
+{
+    .header .header_content .header_content_1 .header_content_titles h1
+    {
+        font-size: 30px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles h2 
+    {
+        font-size: 23px;
+    }
+}
+
+@media screen and(max-width: 500px)
+{
+    .header .header_content .header_content_2
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and(max-width: 420px)
+{
+    .header .header_content .header_content_1 .header_logo img
+    {
+        max-width: 280px;
+    }
+
+    .header .header_content .header_content_1 h3
+    {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles h1
+    {
+        font-size: 23px;
+        padding: 5px 10px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles h2
+    {
+        font-size: 19px;
+    }
+
+    .header .header_content .header_content_1 .header_content_titles .header_button
+    {
+        padding: 20px 38px;
+        font-size: 16px;
+    }
+
+    .container {
+    padding-right: 10px;
+    padding-left: 10px;
     }
 }
 // end media
