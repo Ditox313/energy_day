@@ -189,7 +189,7 @@ p {
 }
 .block_3 .block_3_content {
   min-height: 1390px;
-  background: url('../../img/block_3_bg.jpg') no-repeat center center / cover;
+  background: url('../../img/block_3_bg.jpg') no-repeat fixed center / cover;
   padding-top: 150px;
 }
 .block_3 .block_3_content .block_3_content_row_mod {
@@ -231,6 +231,7 @@ p {
   color: #fff;
   text-align: center;
   font-size: 30px;
+  font-weight: 600;
 }
 .block_4 {
   margin-top: 90px;
@@ -276,6 +277,10 @@ p {
   background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
   margin-right: 20px;
 }
+.block_4 .block_4_lists .block_4_rombs_list_light .block_4_romb_light:hover {
+  transition: all 0.3s;
+  transform: scale(1.07);
+}
 .block_4 .block_4_lists .block_4_rombs_list {
   display: flex;
   justify-content: center;
@@ -291,6 +296,11 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s;
+}
+.block_4 .block_4_lists .block_4_rombs_list .block_4_romb:hover {
+  transition: all 0.3s;
+  transform: scale(1.07);
 }
 .block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap {
   transform: rotate(-45deg);
@@ -309,6 +319,11 @@ p {
   height: 320px;
   background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
   margin-right: 20px;
+  transition: all 0.3s;
+}
+.block_4 .block_4_lists .block_4_rombs_list .block_4_romb_light:hover {
+  transition: all 0.3s;
+  transform: scale(1.07);
 }
 .block_4 .block_4_title_button {
   margin-top: 60px;
@@ -459,6 +474,12 @@ p {
   .block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap {
     transform: rotate(0);
   }
+  .block_4 .block_4_lists .block_4_rombs_list .block_4_romb {
+    transform: rotate(45deg);
+  }
+  .block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap {
+    transform: rotate(-45deg);
+  }
 }
 @media screen and (max-width: 768px) {
   .header .header_content .header_content_1 .header_content_titles h4 {
@@ -544,6 +565,13 @@ p {
   .block_4 .block_4_button button {
     padding: 38px 40px;
   }
+  .block_4 .block_4_lists .block_4_rombs_list .block_4_romb {
+    width: 220px;
+    height: 220px;
+  }
+  .block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap p {
+    font-size: 11px;
+  }
 }
 @media screen and (max-width: 500px) {
   .header .header_content .header_content_2 {
@@ -601,8 +629,8 @@ p {
     padding-bottom: 10px;
   }
   .block_4 .block_4_lists .block_4_rombs_list .block_4_romb {
-    width: 300px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
   }
   .block_4 .block_4_title_button h3 {
     font-size: 25px;

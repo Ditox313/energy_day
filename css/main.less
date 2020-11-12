@@ -263,7 +263,7 @@ p {
 
     .block_3_content {
         min-height: 1390px;
-        background: url('../../img/block_3_bg.jpg') no-repeat center center / cover;
+        background: url('../../img/block_3_bg.jpg') no-repeat fixed center / cover;
         padding-top: 150px;
 
 
@@ -307,6 +307,7 @@ p {
                 p {
                     line-height: 22px;
                     font-size: 18px;
+                    
                 }
             }
         }
@@ -316,6 +317,7 @@ p {
             color: #fff;
             text-align: center;
             font-size: 30px;
+            font-weight: 600;
         }
     }
 
@@ -375,7 +377,14 @@ p {
                 height: 320px;
                 background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
                 margin-right: 20px;
+
+                &:hover {
+                    transition: all 0.3s;
+                    transform: scale(1.07);
+                }
             }
+
+            
         }
 
 
@@ -396,6 +405,13 @@ p {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                transition: all 0.3s;
+
+
+                &:hover {
+                    transition: all 0.3s;
+                    transform: scale(1.07);
+                }
 
                 .block_4_romb_wrap {
                     transform: rotate(-45deg);
@@ -420,6 +436,12 @@ p {
                 height: 320px;
                 background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
                 margin-right: 20px;
+                transition: all 0.3s;
+
+                &:hover {
+                    transition: all 0.3s;
+                    transform: scale(1.07);
+                }
             }
         }
     }
@@ -457,7 +479,7 @@ p {
                 opacity: 0.8;
                 animation: bounce 1s;
                 transition: all 0.3s;
-                
+
             }
         }
     }
@@ -628,6 +650,16 @@ p {
         transform: rotate(0);
     }
 
+    .block_4 .block_4_lists .block_4_rombs_list .block_4_romb
+    {
+        transform: rotate(45deg);
+    }
+
+    .block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap
+    {
+        transform: rotate(-45deg);
+    }
+
 
 }
 
@@ -741,9 +773,18 @@ p {
         font-size: 23px;
     }
 
-    .block_4 .block_4_button button
-    {
+    .block_4 .block_4_button button {
         padding: 38px 40px;
+    }
+
+    .block_4 .block_4_lists .block_4_rombs_list .block_4_romb {
+        width: 220px;
+        height: 220px;
+    }
+
+    .block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap p
+    {
+        font-size: 11px;
     }
 }
 
@@ -762,7 +803,8 @@ p {
         margin-right: 0px;
     }
 
-   
+
+
 }
 
 
@@ -824,18 +866,19 @@ p {
     }
 
     .block_4 .block_4_lists .block_4_rombs_list .block_4_romb {
-        width: 300px;
-        height: 300px;
+        width: 220px;
+        height: 220px;
     }
 
     .block_4 .block_4_title_button h3 {
         font-size: 25px;
     }
 
-    .block_4 .block_4_button button
-    {
+    .block_4 .block_4_button button {
         font-size: 16px;
     }
+
+    
 
 
 }
