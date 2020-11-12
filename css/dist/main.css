@@ -310,6 +310,36 @@ p {
   background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
   margin-right: 20px;
 }
+.block_4 .block_4_title_button {
+  margin-top: 60px;
+}
+.block_4 .block_4_title_button h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.block_4 .block_4_title_button h3 span {
+  font-size: 35px;
+}
+.block_4 .block_4_button {
+  text-align: center;
+}
+.block_4 .block_4_button button {
+  padding: 38px 100px;
+  text-transform: uppercase;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 999999;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.block_4 .block_4_button button:hover {
+  opacity: 0.8;
+  animation: bounce 1s;
+  transition: all 0.3s;
+}
 @media screen and (max-width: 1500px) {
   .header {
     background: url('../../img/header_bg.png') no-repeat center center;
@@ -480,6 +510,9 @@ p {
   .block_4 .block_4_title h2::before {
     display: none;
   }
+  .block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap p {
+    padding: 0 10px;
+  }
 }
 @media screen and (max-width: 670px) {
   .header .header_content .header_content_1 .header_content_titles h1 {
@@ -507,6 +540,9 @@ p {
   }
   .header .header_content .header_content_1 .header_content_titles h2 {
     font-size: 23px;
+  }
+  .block_4 .block_4_button button {
+    padding: 38px 40px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -567,5 +603,11 @@ p {
   .block_4 .block_4_lists .block_4_rombs_list .block_4_romb {
     width: 300px;
     height: 300px;
+  }
+  .block_4 .block_4_title_button h3 {
+    font-size: 25px;
+  }
+  .block_4 .block_4_button button {
+    font-size: 16px;
   }
 }
