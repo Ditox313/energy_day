@@ -211,6 +211,12 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.block_3 .block_3_content .block_3_content_row_1 .block_3_item_circle:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s;
 }
 .block_3 .block_3_content .block_3_content_row_1 .block_3_item_circle h5 {
   margin: 0;
