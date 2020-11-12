@@ -246,6 +246,10 @@ p {
   }
   .header .header_content .header_content_2 {
     width: 100%;
+    display: none;
+  }
+  header {
+    padding-bottom: 45px;
   }
   .header .header_content {
     flex-wrap: wrap;
