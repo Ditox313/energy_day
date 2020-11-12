@@ -61,8 +61,7 @@ body {
     height: auto;
 }
 
-p
-{
+p {
     margin: 0;
 }
 
@@ -253,10 +252,8 @@ p
 .block_3 {
     margin-top: 90px;
 
-    .block_3_title
-    {
-        h2
-        {
+    .block_3_title {
+        h2 {
             font-size: 35px;
             text-align: center;
             font-weight: 700;
@@ -269,22 +266,19 @@ p
         background: url('../../img/block_3_bg.jpg') no-repeat center center / cover;
         padding-top: 150px;
 
-        
 
 
-        .block_3_content_row_mod
-        {
+
+        .block_3_content_row_mod {
             justify-content: space-between !important;
         }
 
-        .block_3_content_row_1
-        {
+        .block_3_content_row_1 {
             display: flex;
             justify-content: space-around;
             margin-bottom: 50px;
 
-            .block_3_item_circle
-            {
+            .block_3_item_circle {
                 border: 1px solid red;
                 width: 280px;
                 height: 280px;
@@ -299,29 +293,25 @@ p
                 transition: all 0.3s;
                 cursor: pointer;
 
-                &:hover
-                {
+                &:hover {
                     transform: translateY(-10px);
                     transition: all 0.3s;
                 }
 
 
-                h5
-                {
+                h5 {
                     margin: 0;
                     font-size: 21px;
                 }
 
-                p
-                {
+                p {
                     line-height: 22px;
                     font-size: 18px;
                 }
             }
         }
 
-        .block_3_bottom_text
-        {
+        .block_3_bottom_text {
             margin-top: 175px;
             color: #fff;
             text-align: center;
@@ -329,10 +319,114 @@ p
         }
     }
 
-  
+
 }
 
 // end block_3
+
+
+
+// block_4
+.block_4 {
+    margin-top: 90px;
+    overflow: hidden;
+
+    .block_4_title {
+        display: flex;
+        justify-content: space-around;
+
+        h2 {
+            position: relative;
+            z-index: 999;
+            margin-left: 40%;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 30px;
+            position: relative;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 200px;
+                height: 4px;
+                background: #009FFF;
+                position: absolute;
+                left: -50%;
+                top: 50%;
+            }
+
+            span {
+                color: #009FFF;
+            }
+        }
+    }
+
+    .block_4_lists {
+        transform: rotate(45deg);
+        margin-top: -80px;
+
+        .block_4_rombs_list_light {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+
+            .block_4_romb_light {
+                width: 320px;
+                height: 320px;
+                background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
+                margin-right: 20px;
+            }
+        }
+
+
+
+        .block_4_rombs_list {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+
+            .block_4_romb {
+                width: 320px;
+                height: 320px;
+                background: url('../../img/block_4_romb.png') no-repeat center center / cover;
+                margin-right: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .block_4_romb_wrap {
+                    transform: rotate(-45deg);
+
+                    p {
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        margin-top: 20px;
+                    }
+
+                    img {
+                        width: 63px;
+                        height: 63px;
+                    }
+                }
+
+
+            }
+
+            .block_4_romb_light {
+                width: 320px;
+                height: 320px;
+                background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
+                margin-right: 20px;
+            }
+        }
+    }
+
+
+}
+
+// end block_4 
 
 
 
@@ -362,8 +456,7 @@ p
         display: none;
     }
 
-    header
-    {
+    header {
         padding-bottom: 45px;
     }
 
@@ -423,8 +516,7 @@ p
         margin-left: 0;
     }
 
-    .block_3 .block_3_content .block_3_bottom_text
-    {
+    .block_3 .block_3_content .block_3_bottom_text {
         font-size: 23px;
     }
 }
@@ -448,8 +540,7 @@ p
         max-width: 400px;
     }
 
-    .block_3 .block_3_content .block_3_content_row_1
-    {
+    .block_3 .block_3_content .block_3_content_row_1 {
         flex-direction: column;
         align-items: center;
         margin-bottom: 0;
@@ -457,24 +548,20 @@ p
     }
 
 
-    .block_3 .block_3_content .block_3_content_row_1 .block_3_item_circle
-    {
+    .block_3 .block_3_content .block_3_content_row_1 .block_3_item_circle {
         margin-bottom: 50px;
     }
 
-    .block_3 .block_3_content .block_3_bottom_text
-    {
+    .block_3 .block_3_content .block_3_bottom_text {
         margin-top: 50px;
         margin-bottom: 150px;
     }
 
-    .block_3 .block_3_content
-    {
+    .block_3 .block_3_content {
         padding-bottom: 40px;
     }
 
-    .block_3 .block_3_content .block_3_bottom_text
-    {
+    .block_3 .block_3_content .block_3_bottom_text {
         font-size: 20px;
     }
 
@@ -569,26 +656,22 @@ p
         margin-top: 0px;
     }
 
-    .block_3 .block_3_content .block_3_content_row_1 .block_3_item_circle
-    {
+    .block_3 .block_3_content .block_3_content_row_1 .block_3_item_circle {
         width: 260px;
         height: 260px;
     }
 
 
-    .block_3 .block_3_title h2
-    {
+    .block_3 .block_3_title h2 {
         font-size: 26px;
     }
 
-    .block_3 .block_3_content .block_3_bottom_text
-    {
+    .block_3 .block_3_content .block_3_bottom_text {
         font-size: 18px;
     }
 
 
-    .block_3 .block_3_content 
-    {
+    .block_3 .block_3_content {
         padding-bottom: 10px;
     }
 }

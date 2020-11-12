@@ -232,6 +232,84 @@ p {
   text-align: center;
   font-size: 30px;
 }
+.block_4 {
+  margin-top: 90px;
+  overflow: hidden;
+}
+.block_4 .block_4_title {
+  display: flex;
+  justify-content: space-around;
+}
+.block_4 .block_4_title h2 {
+  z-index: 999;
+  margin-left: 40%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+}
+.block_4 .block_4_title h2::before {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 4px;
+  background: #009FFF;
+  position: absolute;
+  left: -50%;
+  top: 50%;
+}
+.block_4 .block_4_title h2 span {
+  color: #009FFF;
+}
+.block_4 .block_4_lists {
+  transform: rotate(45deg);
+  margin-top: -80px;
+}
+.block_4 .block_4_lists .block_4_rombs_list_light {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.block_4 .block_4_lists .block_4_rombs_list_light .block_4_romb_light {
+  width: 320px;
+  height: 320px;
+  background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
+  margin-right: 20px;
+}
+.block_4 .block_4_lists .block_4_rombs_list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.block_4 .block_4_lists .block_4_rombs_list .block_4_romb {
+  width: 320px;
+  height: 320px;
+  background: url('../../img/block_4_romb.png') no-repeat center center / cover;
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap {
+  transform: rotate(-45deg);
+}
+.block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.block_4 .block_4_lists .block_4_rombs_list .block_4_romb .block_4_romb_wrap img {
+  width: 63px;
+  height: 63px;
+}
+.block_4 .block_4_lists .block_4_rombs_list .block_4_romb_light {
+  width: 320px;
+  height: 320px;
+  background: url('../../img/block_4_romb_light.png') no-repeat center center / cover;
+  margin-right: 20px;
+}
 @media screen and (max-width: 1500px) {
   .header {
     background: url('../../img/header_bg.png') no-repeat center center;
