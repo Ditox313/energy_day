@@ -56,6 +56,7 @@ $(document).ready(function () {
     fade: true,
     cssEase: 'linear',
     nextArrow: '<span class="rew_next"><i class="fa fa-angle-right" aria-hidden="true"></i></span>',
-    prevArrow: '<span class="rew_prew"><i class="fa fa-angle-left" aria-hidden="true"></i></span>'
+    prevArrow: '<span class="rew_prew"><i class="fa fa-angle-left" aria-hidden="true"></i></span>',
+    autoplay: true
   });
 });

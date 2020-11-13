@@ -504,6 +504,47 @@ p {
   animation: bounce 1s;
   transition: all 0.3s;
 }
+.block_7 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url('../../img/block_7_bg.jpg') no-repeat center center / cover;
+}
+.block_7 .block_7_title {
+  margin-bottom: 100px;
+}
+.block_7 .block_7_title h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #fff;
+}
+.block_7 .block_7_content {
+  display: flex;
+  justify-content: space-between;
+}
+.block_7 .block_7_content .block_7_content_img {
+  width: 35%;
+}
+.block_7 .block_7_content .block_7_content_text {
+  width: 60%;
+}
+.block_7 .block_7_content .block_7_content_text h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 48px;
+  font-weight: 600;
+}
+.block_7 .block_7_content .block_7_content_text h3 span {
+  color: #009FFF;
+  font-weight: 700;
+  font-size: 50px;
+}
+.block_7 .block_7_content .block_7_content_text p {
+  color: #fff;
+  font-size: 26px;
+}
 @media screen and (max-width: 1500px) {
   .header {
     background: url('../../img/header_bg.png') no-repeat center center;
@@ -612,6 +653,9 @@ p {
   .rew_prew {
     left: 50px;
   }
+  .block_7 .block_7_content .block_7_content_text p {
+    font-size: 19px;
+  }
 }
 @media screen and (max-width: 992px) {
   .block_2 .block_2_title h2 {
@@ -650,6 +694,21 @@ p {
   }
   .block_6 .block_6_content .block_6_content_title_h3 h3 {
     width: 100%;
+  }
+  .block_7 .block_7_content {
+    flex-direction: column;
+  }
+  .block_7 .block_7_content .block_7_content_img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .block_7 .block_7_content .block_7_content_text {
+    width: 100%;
+    text-align: center;
+  }
+  .block_7 .block_7_content .block_7_content_text p {
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 924px) {
@@ -758,6 +817,9 @@ p {
   .block_6 .block_6_content .block_6_content_title_h3 h3 {
     font-size: 26px;
   }
+  .block_7 .block_7_title h2 {
+    font-size: 38px;
+  }
 }
 @media screen and (max-width: 576px) {
   .header .header_content .header_content_1 .header_content_titles h1 {
@@ -808,6 +870,12 @@ p {
   }
   .rew_prew {
     display: none;
+  }
+  .block_7 .block_7_title h2 {
+    font-size: 29px;
+  }
+  .block_7 .block_7_title {
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -889,5 +957,11 @@ p {
   }
   .block_6 .block_6_content h4 {
     font-size: 16px;
+  }
+  .block_7 .block_7_content .block_7_content_text p {
+    font-size: 18px;
+  }
+  .block_7 .block_7_title h2 {
+    font-size: 29px;
   }
 }
