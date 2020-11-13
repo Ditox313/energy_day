@@ -545,9 +545,19 @@ p {
   color: #fff;
   font-size: 26px;
 }
+.block_8 {
+  margin-top: 120px;
+}
+.block_8 .block_8_title {
+  margin-bottom: 100px;
+}
+.block_8 .block_8_title h2 {
+  font-size: 45px;
+  text-align: center;
+}
 footer {
   background-color: #DCF6FA;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 footer .footer_content {
   min-height: 360px;
