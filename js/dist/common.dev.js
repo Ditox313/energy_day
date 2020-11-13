@@ -48,3 +48,14 @@ $(".link").on("click", function (e) {
 $(document).ready(function () {
   new WOW().init();
 });
+$(document).ready(function () {
+  $('.block_6_content_reviews').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    nextArrow: '<span class="rew_next"><i class="fa fa-angle-right" aria-hidden="true"></i></span>',
+    prevArrow: '<span class="rew_prew"><i class="fa fa-angle-left" aria-hidden="true"></i></span>'
+  });
+});

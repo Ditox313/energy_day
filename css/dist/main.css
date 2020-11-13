@@ -54,6 +54,24 @@ body {
 p {
   margin: 0;
 }
+.rew_next {
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  right: 250px;
+  cursor: pointer;
+  z-index: 9999;
+  margin-top: -35px;
+}
+.rew_prew {
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 250px;
+  cursor: pointer;
+  z-index: 9999;
+  margin-top: -35px;
+}
 /*------------------------------------------------------------------------*/
 .header {
   background: url('../../img/header_bg.png') no-repeat 170px -100px;
@@ -209,7 +227,6 @@ p {
   margin-bottom: 50px;
 }
 .block_3 .block_3_content .block_3_content_row_1 .block_3_item_circle {
-  border: 1px solid red;
   width: 280px;
   height: 280px;
   border-radius: 50%;
@@ -398,6 +415,65 @@ p {
   color: #fff;
   text-align: center;
   margin-top: 20px;
+}
+.block_6 {
+  padding: 115px 0;
+}
+.block_6 .block_6_content .block_6_content_top_text {
+  text-align: center;
+  line-height: 32px;
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 90px;
+}
+.block_6 .block_6_content h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.block_6 .block_6_content .block_6_content_reviews {
+  position: relative;
+  outline: none;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+.block_6 .block_6_content .block_6_content_reviews .block_6_content_review_item {
+  display: flex;
+  justify-content: center;
+  border: none !important;
+  outline: none;
+}
+.block_6 .block_6_content h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.block_6 .block_6_content h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.block_6 .block_6_content .block_6_content_button {
+  text-align: center;
+}
+.block_6 .block_6_content .block_6_content_button button {
+  padding: 38px 100px;
+  text-transform: uppercase;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 999999;
+  margin-top: 40px;
+}
+.block_6 .block_6_content .block_6_content_button button:hover {
+  opacity: 0.8;
+  animation: bounce 1s;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 1500px) {
   .header {
