@@ -91,6 +91,14 @@ p {
   cursor: pointer;
   color: #333;
 }
+.but_up {
+  font-size: 30px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  color: #009FFF;
+}
 /*------------------------------------------------------------------------*/
 .header {
   background: url('../../img/header_bg.png') no-repeat 170px -100px;
@@ -405,7 +413,7 @@ p {
   margin-bottom: 80px;
 }
 .block_5 .block_5_tilte h2 {
-  font-size: 50px;
+  font-size: 45px;
   text-transform: uppercase;
 }
 .block_5 .block_5_tilte h2 span {
@@ -1157,6 +1165,9 @@ footer .footer_content .footer_item .footer_social .footer_social_list a img:hov
   .block_7 .block_7_title {
     margin-bottom: 60px;
   }
+  .block_8 .block_8_title h2 {
+    font-size: 43px;
+  }
 }
 @media screen and (max-width: 500px) {
   .header .header_content .header_content_2 {
@@ -1258,10 +1269,10 @@ footer .footer_content .footer_item .footer_social .footer_social_list a img:hov
     line-height: 21px;
   }
   .block_8 .block_8_content .block_8_item .block_8_item_price .price_red {
-    font-size: 30px;
+    font-size: 28px;
   }
   .block_8 .block_8_content .block_8_item .block_8_item_price .actual_price {
-    font-size: 30px;
+    font-size: 28px;
   }
   .block_8 .block_8_content .block_8_item .block_8_item_price .price_red::after {
     content: '';
@@ -1276,5 +1287,8 @@ footer .footer_content .footer_item .footer_social .footer_social_list a img:hov
   }
   .block_8 .block_8_content .block_8_item .price_but a {
     font-size: 16px;
+  }
+  .block_8 .block_8_title h2 {
+    font-size: 33px;
   }
 }
